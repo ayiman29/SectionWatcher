@@ -1,6 +1,7 @@
-# VULTURE
+# SectionWatcher
 
-This project contains two Playwright-based scripts for BRACU self-registration:
+SectionWatcher is a Playwright-based course-section availability monitor and
+registration assistant for BRACU self-registration:
 
 - `add.py` waits for a seat event for one section and attempts to register it.
 - `drop_add.py` monitors for target sections, drops the currently enrolled section,
